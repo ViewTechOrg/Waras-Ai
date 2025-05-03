@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/github/forks/ViewTechOrg/Waras-Ai?logo=github&style=flat">
 </p>
 
-# BlackBox AI Chat (CLI)
+# Waras AI Chat (CLI)
 
 Chatbot AI berbasis terminal dengan tampilan cantik menggunakan `Rich`, mendukung animasi, input suara (`espeak`), dan penyimpanan otomatis ke file `.txt` atau `.json`.
 
@@ -37,7 +37,10 @@ Chatbot AI berbasis terminal dengan tampilan cantik menggunakan `Rich`, mendukun
    ```
 
 3. **Pastikan `espeak` sudah terinstall:**
-
+   **Termux**
+   ```bash
+   pkg install espeak
+   ```
    **Linux:**
    ```bash
    sudo apt install espeak
@@ -74,15 +77,15 @@ python ai.py --help
 
 ## Struktur File
 
-- `ai.py` â€” Skrip utama chatbot
-- `user_config.json` â€” Tersimpan otomatis (nama dan preferensi espeak)
-- `hasil.txt` / `hasil.json` â€” File output jika menyimpan percakapan
+- `ai.py` Skrip utama chatbot
+- `user_config.json` Tersimpan otomatis (nama dan preferensi suara)
+- `hasil.txt` / `hasil.json` File output jika menyimpan percakapan
 
 ---
 
 ## API yang Digunakan
 
-[Blackbox AI API](https://api.siputzx.my.id/api/ai/blackboxai-pro?content=)
+[Blackbox AI API](https://blackboxai.com)
 
 Contoh response:
 ```json
